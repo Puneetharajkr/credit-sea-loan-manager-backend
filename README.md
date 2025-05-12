@@ -33,29 +33,18 @@ Start development server:
  npm run dev
 
 Project Structure
-loan-manager-frontend/
-├── public/
-│   └── index.html
+frontend/
+├── public/            # Static assets
 ├── src/
-│   ├── components/
+│   ├── components/    # Reusable components
 │   │   ├── ApplicationForm.jsx
 │   │   ├── Dashboard.jsx
-│   │   ├── LoanApprover.jsx
-│   │   ├── AdminPanel.jsx
-│   │   └── Navbar.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Apply.jsx
-│   │   ├── Approver.jsx
-│   │   ├── Admin.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── index.html
-├── package-lock.json
-├── package.json
-├── vite.config.js
-└── README.md
+│   │   └── LoanStatusViewer.jsx
+│   ├── pages/         # Page components
+│   ├── App.jsx        # Root component
+│   └── main.jsx       # Entry point
+├── vite.config.js     # Build configuration
+└── package.json
 
 
 Available Scripts
