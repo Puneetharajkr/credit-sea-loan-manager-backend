@@ -1,17 +1,15 @@
-# Loan Manager - Frontend
-
-![App Screenshot](/screenshots/frontend.png)
+Loan Manager - Frontend
 
 React-based frontend for the Loan Manager application, built with Vite.
 
-## Features
+Features
 
 - User loan application form with validation
 - Admin dashboard with loan statistics
 - Loan approval/rejection interface
 - Responsive design for all devices
 
-## Technologies
+Technologies
 
 - React 18
 - Vite
@@ -19,23 +17,22 @@ React-based frontend for the Loan Manager application, built with Vite.
 - CSS Modules
 - React Router
 
-## Installation
+Installation
 
-### Prerequisites
+Prerequisites
 - Node.js v16+
 - npm v8+
 
+Install dependencies:
+ npm install
 
-##Install dependencies:
-npm install
+Configure environment:
+ cp .env.example .env
 
-##Configure environment:
-cp .env.example .env
+Start development server:
+ npm run dev
 
-##Start development server:
-npm run dev
-
-#Project Structure
+Project Structure
 loan-manager-frontend/
 ├── public/
 │   └── index.html
@@ -61,15 +58,15 @@ loan-manager-frontend/
 └── README.md
 
 
-##Available Scripts
-npm run dev: Start development server
+Available Scripts
+ npm run dev: Start development server
 
 npm run build: Create production build
 
 npm run preview: Preview production build locally
 
-##Deployment (Vercel)
-Push code to GitHub
+Deployment (Vercel)
+ Push code to GitHub
 
 Create new project in Vercel
 
