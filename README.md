@@ -32,20 +32,6 @@ Configure environment:
 Start development server:
  npm run dev
 
-Project Structure
-frontend/
-├── public/            # Static assets
-├── src/
-│   ├── components/    # Reusable components
-│   │   ├── ApplicationForm.jsx
-│   │   ├── Dashboard.jsx
-│   │   └── LoanStatusViewer.jsx
-│   ├── pages/         # Page components
-│   ├── App.jsx        # Root component
-│   └── main.jsx       # Entry point
-├── vite.config.js     # Build configuration
-└── package.json
-
 
 Available Scripts
  npm run dev: Start development server
